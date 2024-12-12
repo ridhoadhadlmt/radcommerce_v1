@@ -1,0 +1,351 @@
+@font-face{
+  font-family: 'SulphurPoint';
+  src: url('../font/SulphurPoint/SulphurPoint-Regular.ttf');
+}
+@font-face{
+  font-family: 'SairaBold';
+  src: url('../font/SulphurPoint/SulphurPoint-Bold.ttf');
+}
+
+html{
+  position: relative;
+}
+body{
+  background: #ECF5F0;
+  margin-bottom: 150px;
+  font-family: 'SulphurPoint';
+}
+@media (max-width: 680px){
+  body{
+    margin: 0;
+    padding: 0;
+  }
+  .navbar{
+    display: flex;
+    align-items: center;
+  }
+  .navbar .navbar-expand-md{
+    flex-flow: row nowrap;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+  }
+  .navbar .navbar-expand-md .container{
+    flex-wrap: nowrap;
+    padding: 0.5em 1em;
+  }
+  .col-md-6{
+    width: 300px;
+  }
+  .rc-btn-session{
+    display: none;
+  }
+  .rc-btn-order{
+    float: right;
+  }
+  .navbar-merek{
+    display: none;
+  }
+}
+.nice-number button{
+  width: 35px;
+  background-image: linear-gradient(180deg,#C066FF,#A162F5);
+  border: 1px solid #C066FF;
+  color: #FFF;
+  padding: 4px 10px 5px 10px;
+  border-radius: 4px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.nice-number .input-number{
+  border: none;
+  width: 35px;
+  outline: none;
+}
+
+.owl-carousel .owl-item img{
+  border-radius: 8px;
+}
+#navbar{
+  padding: 1em 0em;
+  background-image: linear-gradient(180deg, #C066FF,  #B05EEB);
+  /*background-image: linear-gradient(180deg, #7AA1CC,#6D90B5);*/
+}
+#navbar .col-md-2{
+  padding-left: 0;
+}
+#navbar .col-md-2 .navbar-merek{
+  color: #FFF;
+  font-family: 'SulphurPoint';
+  font-size: 18px;
+  padding: 8px 0;
+}
+#navbar .col-md-2 .btn-kategori{
+  margin: 0;
+  float: right;
+  padding: 9px 15px;
+  border-radius: 4px;
+  
+}
+#navbar .col-md-2 .btn-kategori .dropdown-menu{
+  width: 250px;
+  border: none;
+  box-shadow: 1px 0 3px #e8e9ed;
+  overflow-y: scroll;
+  z-index: 999;
+  height: 360px;
+}
+#navbar .col-md-6 .input-group{
+  width: 100%;
+  border-radius: 4px;
+}
+#navbar .col-md-6 .form-search input{
+  border: none;
+  padding-left: 40px;
+  border-radius: 4px;
+  outline: none;
+  width: 95%;
+  height: 45px;
+  font-size: 14px;
+}
+#navbar .col-md-6 .form-search i{
+ position: absolute;
+ left: 15px;
+ top: 30%;
+ cursor: pointer;
+} 
+#navbar .col-md-6 .form-search button{
+  position: absolute;
+  right: 10px;
+  top: 15%;
+  background-image: linear-gradient(180deg, #C066FF, #A162F5);
+
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  padding: 4px 20px;
+  color: #FFF;
+}
+#navbar .col-md-4 .rc-btn-order .btn{
+  padding: 9px 15px;
+}
+#navbar .col-md-4 .rc-btn-order .btn i{
+  font-size: 16px;
+}
+#navbar .col-md-4 .rc-btn-order .btn .badge{
+  position: relative;
+  top: -10px;
+  padding: 5px;
+}
+#navbar .col-md-4 .rc-btn-session .btn{
+  padding: 9px 15px;  
+}
+#navbar .col-md-4 .rc-btn-session .btn-login{
+  border-radius: 4px;
+  color: #FFF;
+  border: 2px solid #FFF;
+	
+}
+#navbar .col-md-4 .rc-btn-session .btn-signup{
+  background-image: linear-gradient(180deg, #F8F9F0,#F3F3F3);
+  border: 2px solid #F3F3F3;
+}
+#navbar .col-md-4 .btn-user{
+  padding: 9px 15px;
+
+}
+#navbar .col-md-4 .btn-user i{
+  margin: 2px;
+}
+
+.rc-kategori-produk .card {
+  border: none;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+.rc-kategori-produk .slick-prev:before,
+.rc-kategori-produk .slick-next:before
+{
+  display: none;
+}
+.rc-kategori-produk .card img{
+  height: 100px;
+}
+.rc-kategori-produk .card-lg{
+  margin-left: 0;
+  background-image: linear-gradient(180deg,#468DE7,#4997E6);
+}
+.rc-kategori-produk .card-ap{
+  background-image: linear-gradient(180deg,#FFB54D,#FFC773);
+}
+.rc-kategori-produk .card-st{
+  background-image: linear-gradient(180deg,#74E76E,#4EE846);
+}
+.rc-kategori-produk .card-as{
+  background-image: linear-gradient(180deg,#FF7373,#F55858);
+}
+.rc-kategori-produk .card-gt{
+  background-image: linear-gradient(180deg,#10C879,#57BD91);
+}
+.rc-kategori-produk .card-ot{
+  background-image: linear-gradient(180deg,#F5EDA4,#F5DE14);
+}
+.rc-kategori-produk .card h6,
+.rc-kategori-produk .card h5{
+  font-size: 16px;
+  color: #FFF;
+}
+.rc-dod{
+  /*background-image: linear-gradient(180deg,#7D85BD,#5E6BBD);*/
+}
+.rc-dod .col-md-3 h3{
+  color: #000;
+}
+.rc-dod .col-md-9 .slick-item .card{
+  border: none;
+  height: 270px;
+}
+.rc-dod .col-md-9 .card .card-text{
+  display: block;
+  display: -webkit-box;
+  max-height: 42px;
+  min-height: 42px;
+  font-size: 14px;
+  line-height: 1.5;
+  -webkit-line-clamp: 2;
+  color: #000;
+   -webkit-box-orient: vertical; 
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding: 0;
+  white-space: normal;
+  margin: 0 0 4px;
+}
+.rc-produk-terbaru .container .col-md-2 .card{
+	border-color: #eee;
+  border-radius: 4px; 
+}
+.rc-produk-terbaru .container .col-md-2 .card .card-text{
+  display: block;
+  display: -webkit-box;
+  max-height: 42px;
+  min-height: 42px;
+  font-size: 14px;
+  line-height: 1.5;
+  -webkit-line-clamp: 2;
+  color: #000;
+   -webkit-box-orient: vertical; 
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding: 0;
+  white-space: normal;
+  margin: 0 0 4px;
+}
+.rc-produk-terbaru .container .col-md-2 .card:hover{
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 6px 0px;
+}
+.rc-produk-terbaru .container .col-md-2 .card a{
+  text-decoration: none;
+  font-family: 'SulphurPoint';
+  font-size: 12px;
+}
+.rc-produk-terbaru .container .col-md-2 .card .card-body #nama-produk{
+  display: block;
+  display: -webkit-box;
+  max-height: 42px;
+  min-height: 42px;
+  font-size: 14px;
+  line-height: 1.5;
+  -webkit-line-clamp: 2;
+  color: #000;
+   -webkit-box-orient: vertical; 
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding: 0;
+  white-space: normal;
+  margin: 0 0 4px;
+  
+}
+.rc-produk-terbaru .container .col-md-2 .card .card-body #harga{
+  color: #A162F5;
+  font-size: 14px;
+}
+.rc-produk-terbaru .container .col-md-2 .card .card-body .wishlist{
+ 
+  background-image: linear-gradient(100deg, #FF0080, #FF2159);
+  font-size: 14px;
+  height: 40px;
+}
+.rc-produk-terbaru .container .col-md-2 .card .card-body .cart{
+  background-image: linear-gradient(100deg, #A162F5, #C066FF);
+  font-size: 14px;
+  height: 40px;
+}
+
+.rc-produk-palingdicari .container .col-md-2 .card{
+  border-color: #eee;
+  border-radius: 4px; 
+}
+.rc-produk-palingdicari .container .col-md-2 .card .card-text{
+  display: block;
+  display: -webkit-box;
+  max-height: 42px;
+  min-height: 42px;
+  font-size: 14px;
+  line-height: 1.5;
+  -webkit-line-clamp: 2;
+  color: #000;
+   -webkit-box-orient: vertical; 
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding: 0;
+  white-space: normal;
+  margin: 0 0 4px;
+}
+.rc-produk-palingdicari .container .col-md-2 .card:hover{
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 6px 0px;
+}
+.rc-produk-palingdicari .container .col-md-2 .card a{
+  text-decoration: none;
+  font-family: 'SulphurPoint';
+  font-size: 12px;
+}
+.rc-produk-palingdicari .container .col-md-2 .card .card-body a #nama-produk{
+  display: block;
+  display: -webkit-box;
+  max-height: 42px;
+  min-height: 42px;
+  font-size: 14px;
+  line-height: 1.5;
+  -webkit-line-clamp: 2;
+  color: #000;
+  -webkit-box-orient: vertical; 
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding: 0;
+  white-space: normal;
+  margin: 0 0 4px;
+  
+}
+.rc-produk-palingdicari .container .col-md-2 .card .card-body  #harga{
+  color: #A162F5;
+  font-size: 14px;
+}
+.rc-produk-palingdicari .container .col-md-2 .card .card-body .wishlist{
+  background-image: linear-gradient(100deg, #FF0080, #FF2159);
+  font-size: 14px;
+  height: 40px;
+}
+.rc-produk-palingdicari .container .col-md-2 .card .card-body .cart{
+  background-image: linear-gradient(100deg, #A162F5, #C066FF);
+  font-size: 14px;
+  height: 40px;
+}
+
+.rc-banner .container img{
+  border-radius: 4px;
+}
+.rc-banner .container .row .col-md-3 img{
+  border-radius: 4px;
+  max-width: 100%;
+}
+

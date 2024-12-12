@@ -1,0 +1,36 @@
+@font-face{
+  font-family: 'OpenSans';
+  src: url('../font/OpenSans/OpenSans-Regular.ttf');
+}
+@font-face{
+  font-family: 'OpenSansSemiBold';
+  src: url('../font/OpenSans/OpenSans-SemiBold.ttf');
+}
+body{
+	font-family: 'OpenSansSemiBold';
+	background: #F0F0F0;
+}
+.form-daftar .card{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	padding: 10px 20px;
+	transform: translate(-50%,-50%);
+	width: 35%;
+	border: none;
+	box-shadow: 2px 0 20px #F0F0F0;
+}
+.form-daftar .card .card-body .form-group .form-control{
+	background: #F0F0F0;
+	border-radius: 4px;
+	height: 45px;
+}
+
+.form-daftar .card .card-body .form-group .btn-daftar{
+	background-image: linear-gradient(180deg, #C066FF,#A162F5);
+	height: 45px;
+}
+.form-daftar .card .card-body .head-title-daftar,.footer-title-daftar,.warning{
+	font-family: 'OpenSans';
+	font-size: 14px;
+}

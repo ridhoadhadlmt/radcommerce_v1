@@ -1,0 +1,63 @@
+@font-face{
+	font-family: 'SulphurPoint';
+	src: url('../font/SulphurPoint/SulphurPoint-Regular.ttf');
+}
+@font-face{
+	font-family: 'SulphurPointBold';
+	src: url('../font/SulphurPoint/SulphurPoint-Bold.ttf');
+}
+body{
+	font-family: 'SulphurPointBold';
+	background-color: #FFF;
+	/*background: url('assets/gambar/background/bg-home.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;*/
+}
+.bg-login{
+	position: absolute;
+	height: 100%;
+	left: 0;
+	bottom: 0;
+
+}
+.form-login{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(0%,-50%);
+	width: 35%;
+}
+.form-login .card{
+	border: none;
+	padding: 10px 20px;
+	/*box-shadow: 1px 0 15px #e8e9ed;*/
+	border-radius: 4px;
+}
+.form-login .card .card-body input{
+	height: 45px;
+	border: 1px solid #ccc;
+	width: 100%;
+	border-radius: 4px;
+	outline: none;
+	background: #F0F0F0;
+	padding-left: 10px;
+
+}
+.form-login .card .card-body h4 span a,.footer-title-login span a{
+	text-decoration: none;
+	color: #C066FF;
+}
+.form-login .card .card-body h4 span,label,.warning,.footer-title-login{
+	font-size: 16px;
+	font-family: 'SulphurPoint';
+}
+.form-login .card .card-body .btn{
+	background-image: linear-gradient(180deg, #C066FF,#A162F5);
+	color: #FFF;
+	width: 100%;
+	border-radius: 4px;
+	height: 45px;
+}
+.form-login .card .card-body .input-group .input-group-text{
+	border-right: none;  
+}
